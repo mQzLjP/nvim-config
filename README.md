@@ -2,7 +2,7 @@
 
 Personalized configuration for Neovim based on [LazyVim](https://github.com/LazyVim/LazyVim).
 
-Built with EndeavourOS (Arch Linux), not promising it will work in Windows or MacOS.
+Built with EndeavourOS (Arch Linux), not working very well in Windows.
 
 ## Installation
 
