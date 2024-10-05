@@ -1,11 +1,11 @@
 return {
   "zbirenbaum/copilot.lua",
-  keys = {
-    {
-      "<C-l>",
-      function()
-        require("copilot.suggestion").accept_word()
-      end,
-    },
-  },
+  cmd = "Copilot",
+  event = "InsertEnter",
+  config = function()
+    require("copilot").setup({
+      suggestion = { enabled = false },
+      panel = { enabled = false },
+    })
+  end,
 }
