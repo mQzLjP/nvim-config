@@ -6,6 +6,7 @@ return {
     vim.g.vimtex_compiler_progname = "nvr"
     vim.g.vimtex_compiler_latexmk_engines = {
       _ = "-lualatex",
+      -- _ = "-pdflatex",
     }
     vim.g.vimtex_compiler_latexmk = {
       options = {
@@ -16,5 +17,6 @@ return {
         "--interaction=nonstopmode",
       },
     }
+    vim.g.vimtex_quickfix_mode = 0
   end,
 }
